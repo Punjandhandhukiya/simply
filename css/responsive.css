@@ -1,0 +1,161 @@
+
+
+:root{
+    --bgcolor--:#1F2D30;
+    --bgyellow--:#FCC236;
+    --txtwhite--:#ffffff;
+    --fontraleway--:'raleway';
+}
+
+
+@media screen and (min-width:992px) and  (max-width:1199px){     
+    
+    .main_menu li a{
+        height: 110px;
+        line-height: 110px;
+    }
+
+    .ab_title p{
+        width: 54%;
+    }
+
+}
+
+
+@media screen and (max-width:991px) {
+    .main_menu li a{
+        height: auto !important;
+        padding: 14px 34px;
+        line-height: 15px !important;
+        color: var(--txtwhite--) !important;
+    }
+
+    .main_menu li{
+        background-color: var(--bgcolor--);
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+
+    .spacer,
+    .fspacer
+    {
+        padding: 80px 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){        
+    .m_img1{
+        height: 560px;
+    }
+    .m_img2{
+        height: 560px;
+    }
+
+    .formm{
+        height: 80px;
+    }
+
+    .ab_title p{
+        width: 69%;
+    }
+
+    .footer_img{
+        height: 595px;
+    }
+
+    .clieint_sec{
+        height: 1200px;
+    }
+
+}
+
+
+
+@media screen and (max-width:767px){
+    .m_img1{
+        height: 400px;
+    }
+    .m_img2{
+        height: 400px;
+    }
+
+    .logo{
+        height: 80px;
+    }
+
+    
+    .ab_title p{
+        width: 100%;
+    }
+
+    .ab_title h2{
+        font-size: 25px;
+    }
+    .sub_title h2{
+        font-size: 24px;
+    }
+
+    .email_adres{
+        width: 256px;
+
+    }
+    .email_input{
+        width: auto;
+    }
+    .sub_btn{
+        float: none;
+        left: 0;
+        margin: 0;
+        right: 0;
+        text-align: center;
+        position: relative !important;
+        margin-top: 20px;
+    }
+
+    .footer_img{
+        height: 981px;
+    }
+
+    .main_s_con h4{
+        font-size: 20px;
+    }
+    .main_s_con h1{
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .main_s_con p{
+        width: 100%;
+    }
+
+    .info_title h2{
+        font-size: 24px;
+    }
+
+    .clieint_sec{
+        height: 1600px;
+    }
+   
+    .name_input .input_n{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:479px){
+    .clieint_sec{
+        height: 1700px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+
+}
+
+@media screen and (max-width:1199px){
+    .logo_con p,
+    .logo_con a{
+        font-size: 13px;
+    }
+}

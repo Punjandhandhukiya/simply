@@ -1,0 +1,1090 @@
+
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/open-sans-v35-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v35-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v35-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v35-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v35-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/open-sans-v35-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/open-sans-v35-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v35-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v35-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v35-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v35-latin-500.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v35-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/open-sans-v35-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v35-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v35-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v35-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v35-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v35-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/open-sans-v35-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v35-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v35-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v35-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v35-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+  /* open-sans-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v35-latin-800.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/open-sans-v35-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v35-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v35-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v35-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v35-latin-800.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+
+
+
+  /* raleway-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v28-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/raleway-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v28-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/raleway-v28-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/raleway-v28-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v28-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v28-latin-500.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway-v28-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/raleway-v28-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v28-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v28-latin-600.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v28-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/raleway-v28-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v28-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v28-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/raleway-v28-latin-800.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/raleway-v28-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v28-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v28-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v28-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v28-latin-800.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+p{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+body{
+    font-family: var(--fontopen-sans--);
+}
+
+
+:root{
+    --bgcolor--:#1F2D30;
+    --bgyellow--:#FCC236;
+    --bggrey--:#fafafa;
+    --txtwhite--:#ffffff;
+    --fontraleway--:'Raleway';
+    --fontopen-sans--:'Open Sans','sans-serif';
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+    padding: 0;
+    margin: 0;
+}
+
+.spacer{
+    padding: 130px 0px 120px;
+}
+
+/* =================Top Header========================= */
+.top_h{
+    background-color: var(--bgcolor--);
+}
+.time i,
+.time a{
+    color: var(--txtwhite--);
+    margin: 0;
+    font-size: 12px;
+}
+.time span{
+    color: var(--txtwhite--);
+    font-size: 12px;
+}
+.buy_n a{
+    font-size: 14px;
+    color: var(--txtwhite--);
+    font-weight: 500;
+    padding: 0px 30px;
+}
+.buy_n{
+    background-color: var(--bgyellow--);
+    height: 45px;
+    cursor: pointer;
+}
+
+
+
+
+/* =================Top Header========================= */
+
+/* =======================Heder Start================================ */
+.main_menu > li > a{
+    padding: 0px 15px;
+    height: 130px;
+    line-height: 130px;
+    font-size: 14px;
+    color: var(--bgcolor--);
+    font-weight: 500;
+    transition: .5s;
+}
+
+.main_menu li a:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.main_menu li:hover > a{
+    color: var(--bgyellow--) !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler{
+    font-size: 15px;
+    border: 2px solid var(--bgcolor--);
+    border-radius: 0%;
+    padding: 6px 5px;
+    font-weight: 800;
+    width: 38px;
+    height: 38px;
+}
+
+.navbar-toggler i{
+    font-size: 20px;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #a7a7a7;
+    border-radius: 0%;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #a7a7a7;
+}
+.header{
+    background-color: var(--txtwhite--) !important;
+}
+.formm i{
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: rgb(173, 173, 173);
+}
+
+.main_s_con{
+    color: var(--txtwhite--);
+}
+.main_s_con h4{
+    font-size: 30px;
+    font-family: var(--fontopen-sans--);
+    font-weight: 700;
+}
+.main_s_con h1{
+    font-size: 66px;
+    margin-top: 24px;
+    font-weight: 800;
+    line-height: 66px;
+}
+.main_s_con p{
+    width: 57%;
+    margin: 23px auto auto;
+}
+.submenu{
+    width: 220px;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+    background-color: var(--txtwhite--);
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+}
+.submenu li a{
+    padding: 12px 15px;
+    color: var(--bgcolor--);
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+.submenu li{
+    transition: .3s;
+}
+
+.main_menu li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+
+}
+.submenu li:hover{
+    background-color: #fafafa;
+}
+.con_btn a{
+    padding: 0px 25px;
+    background-color: var(--bgyellow--);
+    font-size: 18px;
+    color: var(--txtwhite--);
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    outline: 1px solid transparent;
+    transition: .3s;
+}
+.con_btn a:hover{
+    background-color: transparent;
+    outline-color: var(--bgyellow--);
+    color: var(--bgyellow--);
+}
+/* =======================Heder End================================ */
+
+/* ===================================Home Sec STart================================================== */
+.m_img1{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)) , url(../img/slider1.webp);
+    width: 100%;
+    height: 645px;
+    background-size: cover;
+    background-position: bottom;
+}
+.m_img2{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)) , url(../img/slider2.webp);
+    width: 100%;
+    height: 645px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bbgg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.main_slider{
+    position: relative;
+}
+
+
+
+#m_slider .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#m_slider .owl-prev,
+#m_slider .owl-next
+{
+    width: 35px;
+    height: 54px;
+    background: #1f2d30 none repeat scroll 0 0;
+    transform: translateY(-50%);
+
+}
+#m_slider .owl-prev:hover,
+#m_slider .owl-next:hover
+{
+    background: rgba(184, 144, 37, 0.6) none repeat scroll 0 0;
+}
+#m_slider .owl-prev span,
+#m_slider .owl-next span
+{
+    font-size: 40px !important;
+    color: var(--txtwhite--);
+    line-height: 54px;
+}
+
+/* ===================================Home Sec End================================================== */
+
+/* =======================================Option Sec Start============================== */
+.option_sec{
+    background-color: var(--bggrey--);
+}
+.op_con a{
+    font-size: 1.5rem;
+    color: var(--bgcolor--);
+    font-weight: 700;
+    font-family: var(--fontopen-sans--);
+}
+
+.op_con p{
+    font-size: .9rem;
+}
+.op_logo img{
+    width: 47px;
+}
+/* =======================================Option Sec End============================== */
+
+/* =======================================about Sec Start============================== */
+.ab_title h2{
+    font-size: 40px;
+    color: var(--bgcolor--);
+    font-weight: 700;
+    font-family: var(--fontraleway--);
+}
+.ab_title h2 span{
+    color: var(--bgyellow--);
+}
+
+.ab_title p{
+    width: 57%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 21px;
+}
+.about_box{
+    padding: 30px 0px;
+}
+
+.about2_b{
+    padding: 60px 26px 22px;
+    background-color: var(--bggrey--);
+}
+
+.about2_b a{
+    font-size: 22px;
+    color: var(--bgcolor--);
+    font-weight: 700;
+}
+.about2_b span{
+    font-size: 12px;
+}
+
+.about_box2{
+
+    background-color: var(--bgyellow--);
+    padding: 60px 26px 22px;
+}
+.about_box2 .ab{
+    font-size: 22px;
+    color: var(--txtwhite--);
+    font-weight: 700;
+}
+.about_box2 a{
+    font-size: 14px;
+    color: var(--txtwhite--);
+}
+.a_layer a{
+    font-size: 14px;
+    color: var(--txtwhite--);
+    margin-top: 10px;
+}
+
+.a_layer .ab{
+    font-size: 22px;
+    color: var(--txtwhite--);
+    font-weight: 700;
+
+}
+.a_layer p{
+    color: var(--txtwhite--);
+}
+
+.about_icn{
+    text-align: right;
+}
+.about_icn img{
+    width: 38px;
+}
+.a_layer{
+    transform: scaleY(0);
+    transition: .4s;
+    background-color: #FCC236;
+    padding: 60px 26px 22px;
+}
+.about_box:hover .a_layer{
+    transform: scaleY(1);
+}
+/* =======================================about Sec End============================== */
+/* =======================================Service Sec Start============================== */
+.ab_title2 p{
+    width: auto;
+    margin: 11px 0px 20px;
+}
+.ser_con{
+    padding: 20px 15px 10px;
+}
+
+.ser_i_b a{
+    font-size: 20px;
+    color: var(--bgcolor--);
+    margin-top: 18px;
+    font-weight: 700;
+    transition: .3s;
+}
+.ser_i_b a:hover{
+    color: var(--bgyellow--);
+}
+
+.ser_i_layer,
+.p_layer
+{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(255, 179, 16, 0.7);
+    transition: .4s;
+}
+
+.p_img:hover .p_layer{
+    opacity: 1;
+}
+.ser_i_layer a{
+    color: var(--txtwhite--);
+    transition: .3s;
+}
+.ser_i_layer a:hover{
+    color: var(--bgcolor--);
+}
+
+.ser_img:hover .ser_i_layer{
+    opacity: 1;
+}
+
+.p_layer a{
+    font-size: 18px;
+    color: var(--txtwhite--);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.p_layer p{
+    font-size: 16px;
+    color: var(--txtwhite--);
+    font-weight: 500;
+}
+.p_img1:hover .p_layer{
+    opacity: 1;
+}
+/* =======================================Service Sec End============================== */
+/* =======================================Team Sec Start============================== */
+.man_name{
+    padding: 23px 0px;
+    background-color: var(--bgcolor--);
+    transition: .5s;
+}
+.man_name a{
+    font-size: 18px;
+    color: var(--txtwhite--);
+    font-weight: 600;
+}
+.man_name p{
+    color: var(--txtwhite--);
+}
+
+.man_layer{
+    width: 85px;
+    background:rgba(255, 179, 16, 0.7);
+    transform: scaleX(0);
+    transition: .5s;
+    opacity: 0;
+}
+.s_media_icn li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--txtwhite--);
+    margin: 15px 0px;
+}
+.man_hvr:hover .man_layer{
+    transform: scaleX(1);
+    opacity: 1;
+}
+.man_hvr:hover .man_name{
+    background-color: var(--bgyellow--);
+}
+
+.s_media_icn li a i{
+    color: var(--bgyellow--);
+}
+/* =======================================Team Sec End============================== */
+/* =======================================Blog Sec Start============================== */
+.blog_con{
+    margin-top: 25px;
+}
+.blog_con .read{
+    font-size: 14px;
+    color: #b6b6b6;
+    margin-top: 16px;
+    transition: .3s;
+}
+.blog_con .blog_name{
+    font-size: 18px;
+    color: #606060;
+    font-weight: 700;
+    transition: .4s;
+}
+.blog_con .blog_name:hover{
+    color: var(--bgyellow--);
+}
+.blog_con .read:hover{
+    color: var(--bgyellow--);
+}
+.blob_img{
+    padding-bottom: 24px;
+}
+
+.b_layer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0px 25px;
+}
+
+.b_layer_con{
+    padding: 0px 25px;
+    height: 50px;
+    border-radius: 25px;
+    color: var(--txtwhite--);
+    background-color: var(--bgcolor--);
+    font-size: 14px;
+    transition: .5s;
+    border: 2px solid var(--txtwhite--);
+}
+
+.blog_box:hover .b_layer_con{
+    background-color: var(--bgyellow--);
+}
+.blog_box:hover .b_layer_con ul li{
+    color: var(--bgcolor--);
+}
+
+/* =======================================Blog Sec End============================== */
+
+
+/* =======================================Subcribe Sec Start============================== */
+.spacer2{
+    padding: 90px 0px;
+}
+
+.sub_title h2{
+    font-size: 30px;
+    color: var(--bgcolor--);
+    font-weight: 700;
+    
+}
+.sub_title h2 span{
+    color: var(--bgyellow--);
+}
+.sub_title p{
+    font-size: 18px;
+    color: #606060;
+}
+
+.email_adres{
+    width: 655px;
+    margin: 30px auto auto;
+}
+.email_input{
+    width: 500px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.email_input input{
+    border: none;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    outline: none;
+    width: 100%;
+    
+}
+
+
+.sub_btn a{
+    background-color: var(--bgyellow--);
+    font-size: 12px;
+    color: var(--txtwhite--);
+    padding: 0px 20px;
+    font-weight: 700;
+    height: 35px;
+    line-height: 35px;
+
+}
+.sub_btn{
+    position: absolute;
+    right: 0;
+}
+.subcribe_sec{
+    background-color: var(--bggrey--);
+}
+.gcb{
+    width: 24%;
+}
+/* =======================================Subcribe Sec End============================== */
+/* =======================================Address Sec Start============================== */
+.address_sec{
+    padding: 56px 0px;
+    background-color: var(--bgcolor--);
+}
+.loc_logo{
+    min-width: 47px;
+    min-height: 47px;
+    border-radius: 50%;
+    border: 1px solid var(--bggrey--);
+    transition: .4s;
+}
+.logo_con p,
+.logo_con a
+{
+    color: var(--txtwhite--);
+    font-size: 15px;
+    font-family: var(--fontopen-sans--);
+    transition: .4s;
+}
+.logo_con a:hover{
+    color: var(--bgyellow--);
+}
+
+.loc_add:hover .loc_logo{
+    background-color: var(--bgyellow--);
+    border-color: var(--bgyellow--);
+}
+/* =======================================Address Sec End============================== */
+
+/* ===============================Client Sec STart================= */
+.clieint_sec{
+    width: 100%;
+    height: 787px;
+    background-image:linear-gradient(rgba(255, 255, 255,0.9),rgba(255, 255, 255, 0.9)) , url(../img/client.webp);
+    background-size: cover;
+}
+.client_title h2{
+    font-size: 40px;
+    font-family: var(--fontraleway--);
+    color: var(--bgcolor--);
+    font-weight: 700;
+}
+.client_title h2 span{
+    color: var(--bgyellow--);
+}
+.client_title p{
+    color: #606060;
+    margin: 20px 0px 47px;
+}
+
+.client_slider{
+    width: 445px;
+}
+.client_img{
+    min-width: 48%;
+    margin-right: 40px;
+}
+.tes_icn i{
+    color: #c7c0c0;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.clieint_detp{
+    color: #606060;
+}
+.clieint_det h2{
+    font-size: 16px;
+    color: #303030;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.clieint_det h4{
+    font-size: 14px;
+    color: #606060;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+#client .owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 6px;
+    left: 63px;
+}
+
+#client .owl-dots .owl-dot span{
+    width: 12px;
+    height: 12px;
+    background-color: var(--bgcolor--);
+    margin: 0px 5px !important;
+    border-radius: 0;
+    }
+#client .owl-dots .owl-dot.active span{
+    background-color: var(--bgyellow--) !important;
+}
+
+.input_n{
+    width: calc(50% - 10px);
+    margin: 0px 15px;
+}
+.input_n input{
+    width: 100%;
+    padding: 0px 20px;
+    background-color: var(--txtwhite--);
+    color: #606060;
+    border: 1px solid #e1e1e1;
+    height: 40px;
+}
+
+.clieni_m textarea{
+    width: 100%;
+    min-height: 155px;
+    padding: 12px 10px 10px 20px;
+    background-color: var(--txtwhite--);
+    border: 1px solid #e1e1e1;
+}
+.clieni_m{
+    margin-bottom: 22px;
+    margin: 0px 15px;
+}
+
+textarea{
+    border: none;
+    outline: none;
+}
+
+
+
+/* ===============================Client Sec End================= */
+
+
+
+/* =================================================================================
+
+                                         Footer Start
+
+====================================================================================*/
+
+
+.footer_img{
+    background-image: linear-gradient(rgba(27, 46, 45, 0.9),rgba(27, 46, 45, 0.9)) , url(../img/footer.webp);
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer_box h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: var(--fontraleway--);
+    color: var(--txtwhite--);
+    font-weight: 600;
+}
+.footer_box p{
+    color: var(--txtwhite--);
+    
+}
+.f_con li a{
+    font-size: 14px;
+    color: var(--txtwhite--);
+    transition: .4s;
+    font-weight: 400;
+    padding-top: 13px;
+}
+.f_con li a:hover{
+    color: var(--bgyellow--);
+}
+
+.footer_imgg li{
+    width: 33.33%;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+.fspacer{
+    padding: 130px 0px;
+}
+
+.copyright p{
+    color: var(--txtwhite--);
+}
+
+.copy_right{
+    background-color: var(--bgyellow--);
+    padding: 15px 0px;
+}
+
+/* =================================================================================
+
+                                         Footer End
+
+====================================================================================*/
+
+
+/* =================================================================================
+
+                                         About STart
+
+====================================================================================*/
+.about_img{
+    background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) ,url(../img/about.webp);
+    width: 100%;
+    height: 400px;
+}
+.about_m_con h1{
+    font-size: 50px;
+    font-family: var(--fontraleway--);
+    color: var(--txtwhite--);
+    font-weight: 800;
+}
+
+.about_m_con a,
+.about_m_con span{
+    font-size: 18px;
+    color: var(--txtwhite--);
+    font-weight: 600;
+    transition: .3s;
+}
+.about_m_con a:hover{
+    color: var(--bgyellow--);
+}
+.abt_m_box{
+    padding: 58px 0px;
+}
+
+.about_b_con h2{
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--bgcolor--);
+    font-weight: 700;
+    font-family: var(--fontraleway--);
+}
+.about_b_con p{
+    color: #606060;
+    padding-right: 33px;
+}
+.about_new_sec{
+    background-color: var(--bggrey--);
+}
+
+.about_thumb{
+    width: 50%;
+
+}
+
+
+/* =================================================================================
+
+                                         About End
+
+====================================================================================*/
+
+
+/* =================================================================================
+
+                                         Service Page Start
+
+====================================================================================*/
+.our_ser_sec{
+    background-color: var(--bggrey--);
+}
+.sp100{
+    padding: 100px 0px;
+}
+.clieint_sec2{
+    background-image: var(--txtwhite--);
+}
+
+
+/* =================================================================================
+
+                                         Service Page End
+
+====================================================================================*/
+
+
+
+/* =================================================================================
+
+                                         Contact Page Start
+
+====================================================================================*/
+.info_title h2{
+    font-size: 30px;
+    color: var(--bgcolor--);
+    border-bottom: 1px solid #606060;
+    font-weight: 700;
+    display: inline-block;
+}
+.info_title p{
+    width: 76%;
+    color: #606060;
+    margin-top: 37px;
+}
+
+
+.address_sec2{
+    background-color: transparent;
+    color: var(--bgcolor--);
+}
+.loc_logo2 i{
+    color: var(--bgcolor--) !important;
+}
+.loc_logo2{
+    border-color: var(--bgcolor--);
+}
+.logo_con2 p,
+.logo_con2 a
+{
+    color: var(--bgcolor--) !important;
+}
+
+.namme_{
+    width: 50%;
+}
+.massage_{
+    width: 50%;
+}
+
+.namme_in p{
+    color: var(--bgcolor--);
+}
+.namme_in input{
+    padding: 0px 10px;
+    height: 35px;
+    border: 1px solid #ebebeb;
+    width: 100%;
+}
+.masage_text p{
+    color: var(--bgcolor--);
+}
+.masage_text textarea{
+    width: 100%;
+    min-height: 190px;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+}
+.send_m{
+    margin-top: 100px;
+}
+
+.send_n button{
+    font-size: 12px;
+    color: var(--txtwhite--);
+    height: 35px;
+    background-color: var(--bgyellow--);
+    padding: 0px 28px;
+    border: none;
+    font-weight: 700;
+    outline: 1px solid transparent;
+    transition: .4s;
+}
+.send_n button:hover{
+    outline-color: var(--bgyellow--);
+    background-color: transparent;
+    color: var(--bgyellow--);   
+}
+/* =================================================================================
+
+                                         Contact Page End
+
+====================================================================================*/
+
+.preloder{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.top_bottom{
+    width: 50px;
+    height: 50px;
+    background-color: var(--bgyellow--);
+    color: var(--txtwhite--);
+}
+
