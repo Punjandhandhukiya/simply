@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simply Construction || HTML5 Template</title>
+
+    <!-- ==============Favicon icon========================== -->
+    <link rel="Icon" href="img/favicon.jpg">
+        <!-- ==============Favicon icon========================== -->
 
     <!-- ==============Bootstrap Link========================== -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -35,41 +39,41 @@
   <div class="preloder">
       <img src="../loader/loder1.gif" alt="">
   </div>
-  <div class="top_bottom">
-    
-  </div>
-
-
-    <div class="top_h">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-auto d-md-flex d-none">
-                    <div class="time d-flex align-items-center">
-                        <i class="fa-regular fa-clock pe-2"></i>
-                        <a href="">7.30 AM - 9.30 PM</a>
-                    </div>
-                    <div class="time d-flex align-items-center ps-5">
-                        <i class="fa-solid fa-phone pe-2"></i>
-                        <a href="">(001) 25465 258 369</a>
-                    </div>
-                </div>
-                <div class="col-md-auto d-flex justify-content-between">
-                    <div class="time d-flex align-items-center">
-                        <a href="#">LOGIN</a><span class="px-2">/</span><a href="#">REGISTER</a>
-                    </div>
-                    <div class="buy_n ms-md-5 d-flex align-items-center">
-                        <a href="#">BUY NOW</a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
+    <div class="bottom_top align-items-center justify-content-center">
+      <a href="#" class="w-100 h-100 d-flex align-items-center justify-content-center text-white">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
     </div>
 
-    <header>
+
     
-  
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 header">
+    <header>
+      <div class="top_h" id="top">
+          <div class="container">
+              <div class="row justify-content-between">
+                  <div class="col-auto d-md-flex d-none">
+                      <div class="time d-flex align-items-center">
+                          <i class="fa-regular fa-clock pe-2"></i>
+                          <a href="">7.30 AM - 9.30 PM</a>
+                      </div>
+                      <div class="time d-flex align-items-center ps-5">
+                          <i class="fa-solid fa-phone pe-2"></i>
+                          <a href="">(001) 25465 258 369</a>
+                      </div>
+                  </div>
+                  <div class="col-md-auto d-flex justify-content-between">
+                      <div class="time d-flex align-items-center">
+                          <a href="loginRegister.html">LOGIN</a><span class="px-2">/</span><a href="loginRegister.html">REGISTER</a>
+                      </div>
+                      <div class="buy_n ms-md-5 d-flex align-items-center">
+                          <a href="#">BUY NOW</a>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 header sticky">
             <div class="container position-relative">
               <div class="logo d-flex align-items-center">
                 <a class="navbar-brand order-1 order-lg-1" href="#">
@@ -84,27 +88,30 @@
                   <li class="nav-item position-relative">
                     <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                     <ul class="submenu position-absolute">
-                      <li><a href="" class="d-block">HOME 01</a></li>
-                      <li><a href="" class="d-block">HOME 02</a></li>
-                      <li><a href="" class="d-block">HOME 03</a></li>
+                      <li><a href="index.html" class="d-block">HOME 01</a></li>
+                      <li><a href="index.html" class="d-block">HOME 02</a></li>
+                      <li><a href="index.html" class="d-block">HOME 03</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="about.html">ABOUT</a>
+                    <a class="nav-link" href="about.html" >ABOUT</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link " href="service.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <li class="nav-item ">
+                    <a class="nav-link " href="service.html" role="button" aria-expanded="false">
                       SERVICES
                     </a>
-                    <!-- <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul> -->
+                     
+                   
                   </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">PAGES</a>
+                  <li class="nav-item position-relative">
+                    <a href="projects.html"  class="nav-link">PAGES</a>
+                    <ul class="submenu position-absolute">
+                      <li><a href="service.html" class="d-block">SERVICE</a></li>
+                      <li><a href="singleservice.html" class="d-block">SINGLE SERVICE</a></li>
+                      <li><a href="blog.html" class="d-block">BLOG</a></li>
+                      <li><a href="blogdetail.html" class="d-block">BLOG DETAIL</a></li>
+                      <li><a href="loginRegister.html" class="d-block">LOG IN & REGISTER</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a href="projects.html"  class="nav-link ">PROJECTS</a>
@@ -117,20 +124,20 @@
                   </li>
                 </ul>
               </div>
-              <form class="d-md-flex  order-2 order-lg-4 d-none position-relative formm" role="search">
+              <form class="serchh d-md-flex  order-2 order-lg-4 d-none position-relative formm" role="search">
                 <input class="form-control me-2 p-0 py-1" type="search" placeholder="Search" aria-label="Search">
-                <i class="fa-solid fa-magnifying-glass position-absolute top-md-50" ></i>
+                <i class="fa-solid fa-magnifying-glass position-absolute top-50" ></i>
               </form>
 
             </div>
               
-          </nav>
-
+        </nav>
     </header>
 
     <main>
       
-      <div class="main_slider">
+      <div class="main_slider position-relative">
+        <img src="img/none.webp" class="position-absolute nonne" alt="">
           <div class="owl-carousel owl-theme" id="m_slider">
 
               <div class="item position-relative">
@@ -292,7 +299,7 @@
                     <div class="ser_img position-relative">
                         <img src="img/s1.webp" alt="" class="w-100">
                         <div class="ser_i_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                            <a href="">DETAILS</a>
+                            <a href="singleservice.html">DETAILS</a>
                         </div>
                     </div>
                     <a href="">CONSTRUCTION</a>
@@ -301,7 +308,7 @@
                     <div class="ser_img position-relative">
                         <img src="img/s2.webp" alt="" class="w-100">
                         <div class="ser_i_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                            <a href="">DETAILS</a>
+                            <a href="singleservice.html">DETAILS</a>
                         </div>
                     </div>
                     <a href="">RENOVATION</a>
@@ -310,7 +317,7 @@
                     <div class="ser_img position-relative">
                         <img src="img/s3.webp" alt="" class="w-100">
                         <div class="ser_i_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                            <a href="">DETAILS</a>
+                            <a href="singleservice.html">DETAILS</a>
                         </div>
                     </div>
                     <a href="">ARCHITECTURE</a>
@@ -329,62 +336,72 @@
             <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire</p>
           </div>
           <div class="row mt-5">
-            <div class="col-lg-5 col-md-12 col-xl-5 col-12">
-              <div class="p_img position-relative">
-                <img src="img/p1.webp" alt="" class="w-100">
-                <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                  <div class="p_layer_con text-center">
-                    <a href="">CONSTRUCTION</a>
-                    <p>DURATION : 6 MONTH</p>
+            <div class="col-lg-5 col-md-12 col-xl-5 col-12 mb-4 mb-lg-0 text-center">
+              <a href="#" class="">
+                <div class="p_img position-relative">
+                  <img src="img/p1.webp" alt="" class="w-100">
+                  <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                    <div class="p_layer_con text-center">
+                      <a href="singleprojects.html">CONSTRUCTION</a>
+                      <p>DURATION : 6 MONTH</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-lg-7 col-md-12 col-xl-7 col-12">
+            <div class="col-lg-7 col-md-12 col-xl-7 col-12 mb-4 mb-lg-0 text-center">
               <div class="row g-4">
-                <div class="col-lg-6 col-md-6 col-sm-12 ">
-                  <div class="p_img1 position-relative">
-                    <img src="img/p2.webp" alt="" class="w-100">
-                    <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                      <div class="p_layer_con text-center">
-                        <a href="">CONSTRUCTION</a>
-                        <p>DURATION : 6 MONTH</p>
+                <div class="col-lg-6 col-md-6 col-sm-12  text-center">
+                  <a href="#" class="">
+                    <div class="p_img1 position-relative">
+                      <img src="img/p2.webp" alt="" class="w-100">
+                      <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                        <div class="p_layer_con text-center">
+                          <a href="singleprojects.html">CONSTRUCTION</a>
+                          <p>DURATION : 6 MONTH</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <div class="p_img1 position-relative">
-                    <img src="img/p3.webp" alt="" class="w-100">
-                    <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                      <div class="p_layer_con text-center">
-                        <a href="">CONSTRUCTION</a>
-                        <p>DURATION : 6 MONTH</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                  <a href="#" class="">
+                    <div class="p_img1 position-relative">
+                      <img src="img/p3.webp" alt="" class="w-100">
+                      <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                        <div class="p_layer_con text-center">
+                          <a href="singleprojects.html">CONSTRUCTION</a>
+                          <p>DURATION : 6 MONTH</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <div class="p_img1 position-relative">
-                    <img src="img/p4.webp" alt="" class="w-100">
-                    <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                      <div class="p_layer_con text-center">
-                        <a href="">CONSTRUCTION</a>
-                        <p>DURATION : 6 MONTH</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                  <a href="#" class="">
+                    <div class="p_img1 position-relative">
+                      <img src="img/p4.webp" alt="" class="w-100">
+                      <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                        <div class="p_layer_con text-center">
+                          <a href="singleprojects.html">CONSTRUCTION</a>
+                          <p>DURATION : 6 MONTH</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <div class="p_img1 position-relative">
-                    <img src="img/p5.webp" alt="" class="w-100">
-                    <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                      <div class="p_layer_con text-center">
-                        <a href="">CONSTRUCTION</a>
-                        <p>DURATION : 6 MONTH</p>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                  <a href="#" class="">
+                    <div class="p_img1 position-relative">
+                      <img src="img/p5.webp" alt="" class="w-100">
+                      <div class="p_layer position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                        <div class="p_layer_con text-center">
+                          <a href="singleprojects.html">CONSTRUCTION</a>
+                          <p>DURATION : 6 MONTH</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -537,19 +554,18 @@
                 </p>
               </div>
               <div class="name_input d-md-flex d-block mb-3">
-                <div class="input_n mb-3 mb-md-0">
+                <div class="input_n mb-3 mb-md-0 m-0 px-1">
                   <input type="text" placeholder="Name">
                 </div>
-                <div class="input_n">
+                <div class="input_n m-0 px-1">
                   <input type="email" placeholder="Email">
                 </div>
-                
               </div>
               <div class="name_input d-md-flex d-block mb-3">
-                <div class="input_n mb-3 mb-md-0">
+                <div class="input_n mb-3 mb-md-0 m-0 px-1">
                   <input type="text" placeholder="Phone">
                 </div>
-                <div class="input_n">
+                <div class="input_n m-0 px-1">
                   <input type="email" placeholder="Subject">
                 </div>
               </div>
@@ -573,74 +589,77 @@
           </div>
 
           <div class="row mt-5">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-
-              <div class="blog_box ">
-                <div class="blob_img text-center position-relative">
-                  <img src="img/b1.webp" alt="" class="w-100 h-100">
-                  <div class="b_layer">
-                    <div class="b_layer_con d-flex justify-content-center align-items-center">
-                      <ul class="d-flex ">
-                        <li class="me-3">By : Kalvin</li>
-                        <li class="me-3">20 july</li>
-                        <li>Comments 5</li>
-                      </ul>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 text-center">
+              <a href="blogdetail.html">
+                <div class="blog_box ">
+                  <div class="blob_img text-center position-relative">
+                    <img src="img/b1.webp" alt="" class="w-100 h-100">
+                    <div class="b_layer">
+                      <div class="b_layer_con d-flex justify-content-center align-items-center">
+                        <ul class="d-flex ">
+                          <li class="me-3">By : Kalvin</li>
+                          <li class="me-3">20 july</li>
+                          <li>Comments 5</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
+                  <div class="blog_con">
+                    <a href="" class="blog_name">LOREM IPSUM DOLOR SIT AMET, COTUR ADIPISCING ELIT, SED DO EIUSMOD</a>
+  
+                      <a href="" class="read">READ MORE<span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                      
+                  </div>
                 </div>
-                <div class="blog_con">
-                  <a href="" class="blog_name">LOREM IPSUM DOLOR SIT AMET, COTUR ADIPISCING ELIT, SED DO EIUSMOD</a>
-
-                    <a href="" class="read">READ MORE<span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span></a>
-                    
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-
-              <div class="blog_box ">
-                <div class="blob_img text-center position-relative">
-                  <img src="img/b2.webp" alt="" class="w-100 h-100">
-                  <div class="b_layer">
-                    <div class="b_layer_con d-flex justify-content-center align-items-center">
-                      <ul class="d-flex ">
-                        <li class="me-3">By : Kalvin</li>
-                        <li class="me-3">20 july</li>
-                        <li>Comments 5</li>
-                      </ul>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 text-center">
+              <a href="blogdetail.html">
+                <div class="blog_box ">
+                  <div class="blob_img text-center position-relative">
+                    <img src="img/b2.webp" alt="" class="w-100 h-100">
+                    <div class="b_layer">
+                      <div class="b_layer_con d-flex justify-content-center align-items-center">
+                        <ul class="d-flex ">
+                          <li class="me-3">By : Kalvin</li>
+                          <li class="me-3">20 july</li>
+                          <li>Comments 5</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
+                  <div class="blog_con">
+                    <a href="" class="blog_name">LOREM IPSUM DOLOR SIT AMET, COTUR ADIPISCING ELIT, SED DO EIUSMOD</a>
+  
+                      <a href="" class="read">READ MORE<span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                      
+                  </div>
                 </div>
-                <div class="blog_con">
-                  <a href="" class="blog_name">LOREM IPSUM DOLOR SIT AMET, COTUR ADIPISCING ELIT, SED DO EIUSMOD</a>
-
-                    <a href="" class="read">READ MORE<span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span></a>
-                    
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-
-              <div class="blog_box ">
-                <div class="blob_img text-center position-relative">
-                  <img src="img/b3.webp" alt="" class="w-100 h-100">
-                  <div class="b_layer">
-                    <div class="b_layer_con d-flex justify-content-center align-items-center">
-                      <ul class="d-flex ">
-                        <li class="me-3">By : Kalvin</li>
-                        <li class="me-3">20 july</li>
-                        <li>Comments 5</li>
-                      </ul>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 text-center">
+              <a href="blogdetail.html">
+                <div class="blog_box ">
+                  <div class="blob_img text-center position-relative">
+                    <img src="img/b3.webp" alt="" class="w-100 h-100">
+                    <div class="b_layer">
+                      <div class="b_layer_con d-flex justify-content-center align-items-center">
+                        <ul class="d-flex ">
+                          <li class="me-3">By : Kalvin</li>
+                          <li class="me-3">20 july</li>
+                          <li>Comments 5</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
+                  <div class="blog_con">
+                    <a href="" class="blog_name">LOREM IPSUM DOLOR SIT AMET, COTUR ADIPISCING ELIT, SED DO EIUSMOD</a>
+  
+                      <a href="" class="read">READ MORE<span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                      
+                  </div>
                 </div>
-                <div class="blog_con">
-                  <a href="" class="blog_name">LOREM IPSUM DOLOR SIT AMET, COTUR ADIPISCING ELIT, SED DO EIUSMOD</a>
-
-                    <a href="" class="read">READ MORE<span class="ms-2"><i class="fa-solid fa-arrow-right-long"></i></span></a>
-                    
-                </div>
-              </div>
+              </a>
             </div>
 
           </div>
@@ -650,28 +669,28 @@
 
     <div class="compny_lo_sec ">
       <div class="container">
-        <div class="row row-cols-sm-1 row-cols-md-5 text-center">
-          <div class="col mb-sm-4">
-            <img src="img/c1.webp" alt="" class="w-100 h-100">
+        <div class="row row-cols-sm-1 row-cols-md-5 row-cols-1 text-center">
+          <div class="col mb-sm-4 p-2">
+            <img src="img/c1.webp" alt="" class="w-100 ">
           </div>
-          <div class="col mb-sm-4">
-            <img src="img/c2.webp" alt="" class="w-100 h-100">
+          <div class="col mb-sm-4 p-2">
+            <img src="img/c2.webp" alt="" class="w-100 ">
           </div>
-          <div class="col mb-sm-4">
-            <img src="img/c3.webp" alt="" class="w-100 h-100">
+          <div class="col mb-sm-4 p-2">
+            <img src="img/c3.webp" alt="" class="w-100">
           </div>
-          <div class="col mb-sm-4">
-            <img src="img/c4.webp" alt="" class="w-100 h-100">
+          <div class="col mb-sm-4 p-2">
+            <img src="img/c4.webp" alt="" class="w-100">
           </div>
-          <div class="col mb-sm-4">
-            <img src="img/c5.webp" alt="" class="w-100 h-100">
+          <div class="col mb-sm-4 p-2">
+            <img src="img/c5.webp" alt="" class="w-100">
           </div>
         </div>
       </div>
     </div>
 
     <div class="subcribe_sec spacer2 position-relative">
-      <div class="gcb position-absolute end-0 bottom-0 d-xl-flex d-none">
+      <div class="gcb position-absolute d-xl-flex d-none">
         <img src="img/gcb.webp" alt="" class="w-100 h-100">
       </div>
       <div class="container">
@@ -690,20 +709,26 @@
       </div>
     </div>
 
+    
+  </main>
+  
+  
+  <footer>
+    
     <div class="address_sec">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-md-">
+          <div class="col-md-4 col-sm-6 col-12 mb-md-md-0 mb-3">
             <div class="loc_add d-flex">
               <div class="loc_logo d-flex align-items-center justify-content-center me-3 mb-lg-0 mb-4">
                 <i class="fa-solid fa-location-dot text-white"></i>
               </div>
               <div class="logo_con">
-                <p>Stock Building, 125 Main Street<br>1st Lane, San Francisco, USA</p>
+                <p>Stock, 125 Street<br>1st Lane, San Francisco, USA</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-md-">
+          <div class="col-md-4 col-sm-6 col-12 mb-md-md-0 mb-3">
             <div class="loc_add d-flex text-center">
               <div class="loc_logo d-flex align-items-center justify-content-center me-3 mb-lg-0 mb-4">
                 <i class="fa-solid fa-earth-asia text-white"></i>
@@ -713,7 +738,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-md-">
+          <div class="col-md-4 col-sm-6 col-12 mb-md-md-0 mb-3">
             <div class="loc_add d-flex">
               <div class="loc_logo d-flex align-items-center justify-content-center me-3 mb-lg-0 mb-4">
                 <i class="fa-solid fa-phone text-white"></i>
@@ -726,12 +751,7 @@
         </div>
       </div>
     </div>
-
-    </main>
-
-
-    <footer>
-
+    
       <div class="footer_img fspacer">
         <div class="container">
           <div class="row">
@@ -808,7 +828,7 @@
         </div>
       </div>
 
-    </footer>
+  </footer>
 
 
 

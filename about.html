@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simply Construction || HTML5 Template</title>
+
+
+          <!-- ==============Favicon icon========================== -->
+            <link rel="Icon" href="img/favicon.jpg">
+         <!-- ==============Favicon icon========================== -->
 
         <!-- ==============Bootstrap Link========================== -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -32,36 +37,43 @@
 </head>
 <body>
 
-    <div class="top_h">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-auto d-md-flex d-none">
-                    <div class="time d-flex align-items-center">
-                        <i class="fa-regular fa-clock pe-2"></i>
-                        <a href="">7.30 AM - 9.30 PM</a>
-                    </div>
-                    <div class="time d-flex align-items-center ps-5">
-                        <i class="fa-solid fa-phone pe-2"></i>
-                        <a href="">(001) 25465 258 369</a>
-                    </div>
-                </div>
-                <div class="col-md-auto d-flex justify-content-between">
-                    <div class="time d-flex align-items-center">
-                        <a href="#">LOGIN</a><span class="px-2">/</span><a href="#">REGISTER</a>
-                    </div>
-                    <div class="buy_n ms-md-5 d-flex align-items-center">
-                        <a href="#">BUY NOW</a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="preloder">
+    <img src="../loader/loder1.gif" alt="">
+</div>
+<div class="bottom_top align-items-center justify-content-center">
+  <a href="#" class="w-100 h-100 d-flex align-items-center justify-content-center text-white">
+    <i class="fa-solid fa-angle-up"></i>
+  </a>
+</div>
 
-    <header>
     
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 header">
+    <header>
+      <div class="top_h" id="top">
+          <div class="container">
+              <div class="row justify-content-between">
+                  <div class="col-auto d-md-flex d-none">
+                      <div class="time d-flex align-items-center">
+                          <i class="fa-regular fa-clock pe-2"></i>
+                          <a href="">7.30 AM - 9.30 PM</a>
+                      </div>
+                      <div class="time d-flex align-items-center ps-5">
+                          <i class="fa-solid fa-phone pe-2"></i>
+                          <a href="">(001) 25465 258 369</a>
+                      </div>
+                  </div>
+                  <div class="col-md-auto d-flex justify-content-between">
+                      <div class="time d-flex align-items-center">
+                          <a href="loginRegister.html">LOGIN</a><span class="px-2">/</span><a href="loginRegister.html">REGISTER</a>
+                      </div>
+                      <div class="buy_n ms-md-5 d-flex align-items-center">
+                          <a href="#">BUY NOW</a>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 header sticky">
             <div class="container position-relative">
               <div class="logo d-flex align-items-center">
                 <a class="navbar-brand order-1 order-lg-1" href="#">
@@ -74,50 +86,52 @@
               <div class="collapse navbar-collapse position-relative top-0 start-0 w-100 bg-white  order-4 order-lg-3" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-lg-0 main_menu ">
                   <li class="nav-item position-relative">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                     <ul class="submenu position-absolute">
-                      <li><a href="" class="d-block">HOME 01</a></li>
-                      <li><a href="" class="d-block">HOME 02</a></li>
-                      <li><a href="" class="d-block">HOME 03</a></li>
+                      <li><a href="index.html" class="d-block">HOME 01</a></li>
+                      <li><a href="index.html" class="d-block">HOME 02</a></li>
+                      <li><a href="index.html" class="d-block">HOME 03</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="about.html" >ABOUT</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <li class="nav-item ">
+                    <a class="nav-link " href="service.html" role="button" aria-expanded="false">
                       SERVICES
                     </a>
-                    <!-- <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul> -->
+                     
+                   
+                  </li>
+                  <li class="nav-item position-relative">
+                    <a href="projects.html"  class="nav-link">PAGES</a>
+                    <ul class="submenu position-absolute">
+                      <li><a href="service.html" class="d-block">SERVICE</a></li>
+                      <li><a href="singleservice.html" class="d-block">SINGLE SERVICE</a></li>
+                      <li><a href="blog.html" class="d-block">BLOG</a></li>
+                      <li><a href="blogdetail.html" class="d-block">BLOG DETAIL</a></li>
+                      <li><a href="loginRegister.html" class="d-block">LOG IN & REGISTER</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link">PAGES</a>
+                    <a href="projects.html"  class="nav-link ">PROJECTS</a>
                   </li>
                   <li class="nav-item">
-                    <a href=""  class="nav-link ">PROJECTS</a>
+                    <a href="blog.html" class="nav-link ">BLOG</a>
                   </li>
                   <li class="nav-item">
-                    <a href="" class="nav-link ">BLOG</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="" class="nav-link ">CONTACT</a>
+                    <a href="contact.html" class="nav-link ">CONTACT</a>
                   </li>
                 </ul>
               </div>
-              <form class="d-md-flex  order-2 order-lg-4 d-none position-relative formm" role="search">
+              <form class="serchh d-md-flex  order-2 order-lg-4 d-none position-relative formm" role="search">
                 <input class="form-control me-2 p-0 py-1" type="search" placeholder="Search" aria-label="Search">
-                <i class="fa-solid fa-magnifying-glass position-absolute top-md-50" ></i>
+                <i class="fa-solid fa-magnifying-glass position-absolute top-50" ></i>
               </form>
 
             </div>
               
-          </nav>
-
+        </nav>
     </header>
 
     <main>
@@ -296,19 +310,19 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-5 col-lg-6 col-md-12 col-12 mb-4 mb-lg-0">
-              <div class="client_title">
+              <div class="client_title w-100">
                 <h2>CLIENTS <span>SAYS</span></h2>
                 <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasur</p>
               </div>
-              <div class="client_slider">
+              <div class="client_slider w-100">
                 <div class="owl-carousel owl-theme"  id="client">
                   <div class="item">
-                    <div class="client_flex d-flex">
+                    <div class="client_flex d-block d-md-flex">
                       <div class="client_img">
                         <img src="img/man.webp" alt="" class="w-100 h-100">
                       </div>
-                      <div class="clieint_det">
-                        <div class="tes_icn">
+                      <div class="clieint_det w-100">
+                        <div class="tes_icn mt-3 mt-md-0">
                           <i class="fa-solid fa-quote-right"></i>
                         </div>
                         <p>On the other hand, we denounce with righteous indignation and the tdislike men who are beguiled </p>
@@ -318,12 +332,12 @@
                     </div>
                   </div>
                   <div class="item">
-                    <div class="client_flex d-flex">
+                    <div class="client_flex d-block d-md-flex">
                       <div class="client_img">
                         <img src="img/man.webp" alt="" class="w-100 h-100">
                       </div>
                       <div class="clieint_det">
-                        <div class="tes_icn">
+                        <div class="tes_icn mt-3 mt-md-0">
                           <i class="fa-solid fa-quote-right"></i>
                         </div>
                         <p>On the other hand, we denounce with righteous indignation and the tdislike men who are beguiled </p>
@@ -333,12 +347,12 @@
                     </div>
                   </div>
                   <div class="item">
-                    <div class="client_flex d-flex">
+                    <div class="client_flex d-block d-md-flex">
                       <div class="client_img">
                         <img src="img/man.webp" alt="" class="w-100 h-100">
                       </div>
                       <div class="clieint_det">
-                        <div class="tes_icn">
+                        <div class="tes_icn mt-3 mt-md-0">
                           <i class="fa-solid fa-quote-right"></i>
                         </div>
                         <p>On the other hand, we denounce with righteous indignation and the tdislike men who are beguiled </p>
@@ -356,25 +370,24 @@
               <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasur
               </p>
             </div>
-            <div class="name_input d-flex mb-3">
-              <div class="input_n">
+            <div class="name_input d-md-flex d-block mb-3">
+              <div class="input_n mb-3 mb-md-0 m-0">
                 <input type="text" placeholder="Name">
               </div>
-              <div class="input_n">
+              <div class="input_n m-0">
                 <input type="email" placeholder="Email">
               </div>
-              
             </div>
-            <div class="name_input d-flex mb-3">
-              <div class="input_n">
+            <div class="name_input d-md-flex d-block mb-3">
+              <div class="input_n mb-3 mb-md-0 m-0">
                 <input type="text" placeholder="Phone">
               </div>
-              <div class="input_n">
+              <div class="input_n m-0">
                 <input type="email" placeholder="Subject">
               </div>
             </div>
             <div class="clieni_m mb-3">
-              <textarea name="" placeholder="Massage" id="" cols="30" rows="10"></textarea>
+              <textarea name="" placeholder="Massage" class="w-100" id="" cols="30" rows="10"></textarea>
             </div>
             <div class="con_btn mt-3">
               <a href="">SEND MESSAGE</a>
@@ -387,23 +400,23 @@
 
   
 
-  <div class="compny_lo_sec spacer">
+  <div class="compny_lo_sec ">
     <div class="container">
-      <div class="row row-cols-sm-1 row-cols-md-5 text-center">
-        <div class="col mb-sm-4">
-          <img src="img/c1.webp" alt="" class="w-100 h-100">
+      <div class="row row-cols-sm-1 row-cols-md-5 row-cols-1 text-center">
+        <div class="col mb-sm-4 p-2">
+          <img src="img/c1.webp" alt="" class="w-100 ">
         </div>
-        <div class="col mb-sm-4">
-          <img src="img/c2.webp" alt="" class="w-100 h-100">
+        <div class="col mb-sm-4 p-2">
+          <img src="img/c2.webp" alt="" class="w-100 ">
         </div>
-        <div class="col mb-sm-4">
-          <img src="img/c3.webp" alt="" class="w-100 h-100">
+        <div class="col mb-sm-4 p-2">
+          <img src="img/c3.webp" alt="" class="w-100">
         </div>
-        <div class="col mb-sm-4">
-          <img src="img/c4.webp" alt="" class="w-100 h-100">
+        <div class="col mb-sm-4 p-2">
+          <img src="img/c4.webp" alt="" class="w-100">
         </div>
-        <div class="col mb-sm-4">
-          <img src="img/c5.webp" alt="" class="w-100 h-100">
+        <div class="col mb-sm-4 p-2">
+          <img src="img/c5.webp" alt="" class="w-100">
         </div>
       </div>
     </div>
@@ -469,8 +482,45 @@
 
 </main>
 
-  <footer>
-
+<footer>
+    
+  <div class="address_sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-12 mb-md-md-0 mb-3">
+          <div class="loc_add d-flex">
+            <div class="loc_logo d-flex align-items-center justify-content-center me-3 mb-lg-0 mb-4">
+              <i class="fa-solid fa-location-dot text-white"></i>
+            </div>
+            <div class="logo_con">
+              <p>Stock, 125 Street<br>1st Lane, San Francisco, USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 mb-md-md-0 mb-3">
+          <div class="loc_add d-flex text-center">
+            <div class="loc_logo d-flex align-items-center justify-content-center me-3 mb-lg-0 mb-4">
+              <i class="fa-solid fa-earth-asia text-white"></i>
+            </div>
+            <div class="logo_con">
+              <a href="">info@example.com</a><br><a href=""> info@example.com </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 mb-md-md-0 mb-3">
+          <div class="loc_add d-flex">
+            <div class="loc_logo d-flex align-items-center justify-content-center me-3 mb-lg-0 mb-4">
+              <i class="fa-solid fa-phone text-white"></i>
+            </div>
+            <div class="logo_con">
+              <a href="">(001) 24568 365 987</a><br><a href="">(001) 65897 569 784</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
     <div class="footer_img fspacer">
       <div class="container">
         <div class="row">
@@ -547,7 +597,7 @@
       </div>
     </div>
 
-  </footer>
+</footer>
 
 
 
